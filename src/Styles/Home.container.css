@@ -1,0 +1,23 @@
+#container{
+  
+ background-color: aqua;
+ border-radius:15px ;
+ -webkit-border-radius:15px ;
+ -moz-border-radius:15px ;
+ -ms-border-radius:15px ;
+ -o-border-radius:15px ;
+ box-shadow: 2px 2px 35px rgb(5, 158, 0);
+ 
+}
+.card{
+   transition:1s;
+  box-shadow: 4px 4px 32px rgba(0, 17, 251, 0.548);
+}
+.card:hover{
+  transition:1s;
+  box-shadow: 15px 15px 50px rgb(21, 0, 251);
+  -webkit-transition:1s;
+  -moz-transition:1s;
+  -ms-transition:1s;
+  -o-transition:1s;
+}
